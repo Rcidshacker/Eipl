@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Nunito Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: #11140f;
+  background-image: radial-gradient(circle at 10% 20%, rgba(255, 255, 255, 0.05), transparent 45%),
+    radial-gradient(circle at 90% 10%, rgba(255, 255, 255, 0.04), transparent 40%),
+    linear-gradient(135deg, rgba(17, 20, 15, 0.98), rgba(32, 36, 30, 0.95));
+  color: #f7f2e9;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: rgba(232, 106, 51, 0.6);
+  color: #0f3b1d;
+}
+
+.texture-panel {
+  background-image: url('data:image/svg+xml,%3Csvg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-opacity="0.07" fill-rule="evenodd"%3E%3Ccircle fill="%23ffffff" cx="3" cy="3" r="3"/%3E%3Ccircle fill="%23ffffff" cx="33" cy="63" r="2"/%3E%3Ccircle fill="%23ffffff" cx="63" cy="33" r="2"/%3E%3Ccircle fill="%23ffffff" cx="93" cy="93" r="3"/%3E%3C/g%3E%3C/svg%3E'),
+    linear-gradient(145deg, rgba(13, 39, 20, 0.9), rgba(26, 56, 33, 0.85));
+}
+
+.soil-chip {
+  position: relative;
+  border-radius: 20px;
+  min-height: 88px;
+  isolation: isolate;
+}
+
+.soil-chip--sandy {
+  background-image: radial-gradient(circle, rgba(255, 230, 173, 0.35) 10%, transparent 50%),
+    radial-gradient(circle at 60% 40%, rgba(255, 255, 255, 0.18), transparent 45%),
+    linear-gradient(135deg, #c98c4f, #e2b56d);
+}
+
+.soil-chip--loam {
+  background-image: linear-gradient(120deg, #5c3b1b, #8b7355);
+}
+
+.soil-chip--clay {
+  background-image: repeating-linear-gradient(130deg, #5e2d1b, #5e2d1b 12px, #7a3b27 12px, #7a3b27 24px);
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.06);
+}
+
+.moisture-dial button {
+  min-width: 64px;
+  min-height: 64px;
+  border-radius: 999px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.moisture-dial button:active {
+  transform: scale(0.96);
+}
+
+.terrain-track {
+  scroll-snap-type: x mandatory;
+}
+
+.terrain-card {
+  scroll-snap-align: start;
+  min-width: 120px;
+  border-radius: 24px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.terrain-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.12), transparent 45%);
+  pointer-events: none;
+}
+
+.terrain-card--calm {
+  background-image: linear-gradient(180deg, rgba(28, 124, 77, 0.9), rgba(15, 59, 29, 0.92));
+}
+
+.terrain-card--ridge {
+  background-image: linear-gradient(180deg, rgba(200, 82, 31, 0.92), rgba(15, 59, 29, 0.95));
+}
+
+.terrain-wave {
+  position: absolute;
+  inset: 0;
+  clip-path: polygon(0% 60%, 15% 40%, 35% 55%, 55% 35%, 75% 60%, 100% 45%, 100% 100%, 0% 100%);
+  opacity: 0.9;
+}
+
+.terrain-wave--calm {
+  background: linear-gradient(180deg, rgba(45, 163, 95, 0.9), rgba(15, 59, 29, 0));
+}
+
+.terrain-wave--ridge {
+  clip-path: polygon(0% 80%, 12% 45%, 25% 70%, 40% 30%, 60% 75%, 75% 25%, 90% 60%, 100% 30%, 100% 100%, 0% 100%);
+  background: linear-gradient(180deg, rgba(232, 106, 51, 0.95), rgba(15, 59, 29, 0));
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

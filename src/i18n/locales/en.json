@@ -1,0 +1,131 @@
+{
+  "app": {
+    "kicker": "Custard apple guardianship",
+    "title": "Sitaphal Sentinel",
+    "subtitle": "Mealybug pressure interface for Pune orchards",
+    "lastUpdated": "Updated moments ago via Sentinel + weather fusion",
+    "locationTag": "Pune district canopy outlook",
+    "fieldPulse": "Field pulse",
+    "stateLabel": "Live pressure"
+  },
+  "hero": {
+    "livingTree": "Living tree hero",
+    "tapPrompt": "Tap / click the tree to reveal the why-factors.",
+    "tapToClose": "Tap again to tuck insights away.",
+    "pressureStates": {
+      "low": "Calm canopy",
+      "medium": "Watchful haze",
+      "high": "Critical bloom"
+    },
+    "whyTitle": "Why mealybugs stir?",
+    "whySubtitle": "Signals from Sentinel bands + weather fusion",
+    "next48h": "Next 48h outlook",
+    "conditionsLabel": "Field conditions",
+    "humidity": "Humidity",
+    "temperature": "Temperature",
+    "solar": "Solar load",
+    "wind": "Wind hush",
+    "currentSoil": "Soil feel",
+    "currentMoisture": "Moisture pulse"
+  },
+  "tree": {
+    "factors": {
+      "sun": "Hot afternoon sun",
+      "sunDesc": "Leaf cuticle heating near 36°C.",
+      "humidity": "Trapped humidity",
+      "humidityDesc": "Canopy moisture stuck above 78%.",
+      "shelter": "Dense foliage",
+      "shelterDesc": "Unpruned clusters shelter crawlers."
+    }
+  },
+  "horizon": {
+    "title": "14-day horizon terrain",
+    "subtitle": "Swipe sideways. Flat plains mean safe days; jagged ridges mean obstacles.",
+    "riskCallout": "Day {{day}} sits at {{risk}}% risk",
+    "activeNarrative": "Field note: {{note}}",
+    "metrics": {
+      "humidity": "Humidity",
+      "temperature": "Temperature",
+      "solar": "Solar load",
+      "wind": "Wind"
+    }
+  },
+  "controls": {
+    "title": "Soil & sky controls",
+    "subtitle": "Fine-tune what your block feels like right now.",
+    "soil": {
+      "title": "Clay feel selector",
+      "sandy": "Sandy skin",
+      "sandyDesc": "Quick draining, roots cool fast.",
+      "loam": "Balanced loam",
+      "loamDesc": "Sweet spot for Sitaphal orchards.",
+      "clay": "Heavy clay",
+      "clayDesc": "Holds water and warmth near crown."
+    },
+    "moisture": {
+      "title": "Moisture pulse",
+      "dry": "Dry top 5 cm",
+      "dryDesc": "Dusty mulch, mites compete.",
+      "balance": "Balanced moisture",
+      "balanceDesc": "Leaf shine yet breathing soil.",
+      "wet": "Soggy pockets",
+      "wetDesc": "Pooling near trunks invites pests."
+    },
+    "environment": {
+      "title": "Sky telemetry",
+      "humidity": "Humidity",
+      "temperature": "Temperature",
+      "solar": "Solar load",
+      "wind": "Wind calm"
+    }
+  },
+  "actions": {
+    "heading": "Action deck",
+    "low": {
+      "observe": {
+        "title": "Scout gently",
+        "body": "Lift 10 random leaves and check fruit seams."
+      },
+      "hygiene": {
+        "title": "Hygiene check",
+        "body": "Remove ant bridges and wipe honeydew."
+      },
+      "log": {
+        "title": "Log calm days",
+        "body": "Mark the block as clean for traceability."
+      }
+    },
+    "medium": {
+      "observe": {
+        "title": "Focused scouting",
+        "body": "Inspect inner canopy + water shoots every other day."
+      },
+      "prune": {
+        "title": "Quick prune",
+        "body": "Open windows for air — remove 15% dense shoots."
+      },
+      "biocontrol": {
+        "title": "Release biocontrols",
+        "body": "Introduce lacewing cards at 200/acre."
+      }
+    },
+    "high": {
+      "treat": {
+        "title": "Targeted spray",
+        "body": "Apply recommended mix at dawn with sticker."
+      },
+      "cover": {
+        "title": "Shield fruits",
+        "body": "Bag premium fruits and block ant trails."
+      },
+      "support": {
+        "title": "Village alert",
+        "body": "Inform neighbors to sync sprays and avoid reinfestation."
+      }
+    }
+  },
+  "language": {
+    "english": "English",
+    "marathi": "मराठी"
+  }
+}
